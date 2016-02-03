@@ -41,6 +41,16 @@
 $route['default_controller'] = "welcome";
 $route['404_override'] = '';
 $route['show/:num'] = 'First/gimme/3';
+$route['dunno'] = function(){
+    $source = './data/gw2.jpg';
+    if (!file_exists($source)) { show_404($source); }
+    //$this->load->helper('file');
+
+    header("Content-type: image/jpg");
+    header('Content-Disposition: inline');
+    readfile($source);
+    die();
+};
 
 /* End of file routes.php */
 /* Location: ./application/config/routes.php */
