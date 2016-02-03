@@ -56,6 +56,7 @@ $route['dunno'] = function(){
 $route['lock/:any/:any'] = "welcome/shucks";
 $route['sleep'] = 'first/zzz';
 $route['\w{4}/bingo'] = 'bingo';
+$route['comp\d{4}/*:any'] = 'bingo/wisdom';
 
 /* End of file routes.php */
 /* Location: ./application/config/routes.php */
