@@ -40,6 +40,7 @@
 
 $route['default_controller'] = "welcome";
 $route['404_override'] = '';
+
 $route['show/:num'] = 'First/gimme/3';
 $route['dunno'] = function(){
     $source = './data/gw2.jpg';
@@ -51,6 +52,10 @@ $route['dunno'] = function(){
     readfile($source);
     die();
 };
+
+$route['lock/:any/:any'] = "welcome/shucks";
+$route['sleep'] = 'first/zzz';
+$route['\w{4}/bingo'] = 'bingo';
 
 /* End of file routes.php */
 /* Location: ./application/config/routes.php */
