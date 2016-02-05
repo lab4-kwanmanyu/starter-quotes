@@ -2,3 +2,20 @@ CHANGELOG FILE
 --------------
 
 2/2/2016 1:22 PM | Repo Owner initialized readme, gitignore, and changelog
+2/2/2016 1:30 PM | Warm Up Exercis,e Oscar
+2/2/2016 1:32 PM | Warm Up Exercise, Alvin
+2/2/2016 1:33 PM | Warm Up Exercise, Thomas
+2/2/2016 1:42 PM | First link fix, Thomas
+2/2/2016 1:50 PM | Second link fix, Thomas
+2/2/2016 1:55 PM | Fix readme.rst conflict, Alvin
+2/2/2016 2:01 PM | Third link fix, Thomas
+2/2/2016 2:09 PM | Fourth link fix, Oscar
+2/2/2016 2:21 PM | Fifth link fix, Alvin
+2/2/2016 2:29 PM | fix conflicts, Oscar
+2/2/2016 2:40 PM | Added random image and added callback routing. Sixth link, Alvin
+2/2/2016 2:55 PM | Seventh link, Oscar
+2/2/2016 3:10 PM | Eigth link, Alvin
+
+
+
+
